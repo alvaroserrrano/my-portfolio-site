@@ -797,6 +797,61 @@ class Projects extends Component {
                     color: 'black',
                     height: '170px',
                     background:
+                      'url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fmarketingland.com%2Fwp-content%2Fml-loads%2F2015%2F12%2Fcomputer-network-laptops2-ss-1920.jpg&f=1) center / cover'
+                  }}
+                />
+                <CardText>
+                  Full stack application based on a social networking site for
+                  developers.
+                  <br />
+                  <br />
+                  You can create a profile, learn about other developers,
+                  publish your Github repositories, add posts, likes,
+                  comments... and much more!
+                  <br />
+                  <br />I used the MERN stack, mongoose, redux, JSON web token,
+                  Bcrypt, mongoDB Atlas...
+                </CardText>
+                <CardActions border>
+                  <Button colored>
+                    <a
+                      href='https://github.com/alvaroserrrano/devConnector'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      style={{
+                        textDecoration: 'none',
+                        color: 'rgba(66, 83, 175)'
+                      }}
+                    >
+                      GitHub
+                    </a>
+                  </Button>
+                  <Button colored>
+                    <a
+                      href='https://vast-inlet-98158.herokuapp.com/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      style={{
+                        textDecoration: 'none',
+                        color: 'rgba(66, 83, 175)'
+                      }}
+                    >
+                      Live demo
+                    </a>
+                  </Button>
+                </CardActions>
+                <CardMenu style={{ color: '#fff' }}>
+                  <IconButton name='share' />
+                </CardMenu>
+              </Card>
+            </div>
+            <div className='col-10 mx-auto col-md-6 col-lg-4  my-3'>
+              <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                <CardTitle
+                  style={{
+                    color: 'black',
+                    height: '170px',
+                    background:
                       'url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.clusterdb.com%2Fwp-content%2Fuploads%2F2017%2F03%2FLogo.png&f=1) center / cover'
                   }}
                 />

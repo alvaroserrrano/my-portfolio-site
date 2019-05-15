@@ -31,6 +31,9 @@ class Resume extends Component {
             <p>alvaro-serrano-rivas.com</p>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
             <h5>Deployed websites</h5>
+
+            <a href='https://vast-inlet-98158.herokuapp.com/'>DevConnector</a>
+            <br />
             <a href='https://react-ecommerce-alvaro-serrano.netlify.com/'>
               Ecommerce site
             </a>
@@ -127,6 +130,12 @@ class Resume extends Component {
               nameOfSkill={'Soft skills:'}
               description={
                 'Team-work - Leadership - Discipline - Public speaking - Writing skills - Attention to detail - Solid work ethics - Web based instructional materials'
+              }
+            />
+            <Skills
+              nameOfSkill={'Online courses'}
+              description={
+                'The complete Javascript course (ude.my/UC-5HLOFF76) - MERN Front to Back: Full stack using React, Redux and Nodejs (ude.my/UC-ZNPYRQ60)'
               }
             />
           </Cell>
