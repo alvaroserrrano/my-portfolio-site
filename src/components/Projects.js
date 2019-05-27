@@ -892,6 +892,55 @@ class Projects extends Component {
           </div>
         </div>
       );
+    } else if (this.state.activeTab === 6) {
+      return (
+        <div className='container'>
+          <div className='row'>
+            <div className='col-10 mx-auto col-md-6 col-lg-4  my-3'>
+              <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                <CardTitle
+                  style={{
+                    color: 'black',
+                    height: '170px',
+                    background:
+                      'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Flaraveldaily.com%2Fwp-content%2Fuploads%2F2015%2F06%2Flaravel-logo-big.png&f=1'
+                  }}
+                />
+                <CardText>
+                  This is an Instagram clone based on a crash course using
+                  Laravel
+                  <br />
+                  <br />
+                  I used this project to learn the Laravel web framework by
+                  copying Instagram´s functionality
+                  <br />
+                  <br />
+                  You can follow people, like posts, add your own postsm update
+                  your profile...
+                </CardText>
+                <CardActions border>
+                  <Button colored>
+                    <a
+                      href='https://github.com/alvaroserrrano/freeCodeGram'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      style={{
+                        textDecoration: 'none',
+                        color: 'rgba(66, 83, 175)'
+                      }}
+                    >
+                      GitHub
+                    </a>
+                  </Button>
+                </CardActions>
+                <CardMenu style={{ color: '#fff' }}>
+                  <IconButton name='share' />
+                </CardMenu>
+              </Card>
+            </div>
+          </div>
+        </div>
+      );
     }
   }
 
@@ -909,6 +958,7 @@ class Projects extends Component {
           <Tab> JavaScript</Tab>
           <Tab> Redux</Tab>
           <Tab>MERN</Tab>
+          <Tab>Laravel</Tab>
         </Tabs>
         <section className='projects-grid'>
           <Grid className='projects-grid'>
