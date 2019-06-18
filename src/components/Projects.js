@@ -941,7 +941,7 @@ class Projects extends Component {
           </div>
         </div>
       );
-    }else if (this.state.activeTab === 7) {
+    } else if (this.state.activeTab === 7) {
       return (
         <div className='container'>
           <div className='row'>
@@ -952,22 +952,22 @@ class Projects extends Component {
                     color: 'black',
                     height: '170px',
                     background:
-                      'https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.parentmap.com%2Fimages%2Farticle%2F7805%2FTest_sign.jpg&f=1'
+                      'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Flaraveldaily.com%2Fwp-content%2Fuploads%2F2015%2F06%2Flaravel-logo-big.png&f=1'
                   }}
                 />
                 <CardText>
                   This is the app that I chose to practice testing.
                   <br />
                   <br />
-                  I used unit testing and integration testing to test react components on an app that also uses Redux
+                  I used unit testing and integration testing to test react
+                  components on an app that also uses Redux
                   <br />
-                  <br />
-                  I used Jest and Enzyme as testing frameworks.
+                  <br />I used Jest and Enzyme as testing frameworks
                 </CardText>
                 <CardActions border>
                   <Button colored>
                     <a
-                      href='https://github.com/alvaroserrrano/robofriendsTesting'
+                      href='https://github.com/alvaroserrrano/freeCodeGram'
                       target='_blank'
                       rel='noopener noreferrer'
                       style={{
@@ -987,8 +987,8 @@ class Projects extends Component {
           </div>
         </div>
       );
+    }
   }
-
   render() {
     return (
       <div className='categoryTabs'>
@@ -1004,6 +1004,7 @@ class Projects extends Component {
           <Tab> Redux</Tab>
           <Tab>MERN</Tab>
           <Tab>Laravel</Tab>
+          <Tab>Testing</Tab>
         </Tabs>
         <section className='projects-grid'>
           <Grid className='projects-grid'>
