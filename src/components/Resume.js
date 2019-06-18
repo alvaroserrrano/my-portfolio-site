@@ -129,7 +129,7 @@ class Resume extends Component {
             <Skills
               nameOfSkill={'IT:'}
               description={
-                'Version control (Git) - Linux - Open Source - SSH - Shell Scripting - Virtualization - SSL certificates - Agile testing - Networking - Computer hardware troubleshooting - Microsoft Office - Penetration testing - Footprinting'
+                'Version control (Git) - Linux - Testing - Module Bundling - Open Source - SSH - Shell Scripting - Virtualization - SSL certificates - Agile testing - Networking - Computer hardware troubleshooting - Microsoft Office - Penetration testing - Footprinting'
               }
             />
             <Skills

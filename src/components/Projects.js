@@ -941,7 +941,52 @@ class Projects extends Component {
           </div>
         </div>
       );
-    }
+    }else if (this.state.activeTab === 7) {
+      return (
+        <div className='container'>
+          <div className='row'>
+            <div className='col-10 mx-auto col-md-6 col-lg-4  my-3'>
+              <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                <CardTitle
+                  style={{
+                    color: 'black',
+                    height: '170px',
+                    background:
+                      'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Flaraveldaily.com%2Fwp-content%2Fuploads%2F2015%2F06%2Flaravel-logo-big.png&f=1'
+                  }}
+                />
+                <CardText>
+                  This is the app that I chose to practice testing.
+                  <br />
+                  <br />
+                  I used unit testing and integration testing to test react components on an app that also uses Redux
+                  <br />
+                  <br />
+                  I used Jest and Enzyme as testing frameworks.
+                </CardText>
+                <CardActions border>
+                  <Button colored>
+                    <a
+                      href='https://github.com/alvaroserrrano/robofriendsTesting'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      style={{
+                        textDecoration: 'none',
+                        color: 'rgba(66, 83, 175)'
+                      }}
+                    >
+                      GitHub
+                    </a>
+                  </Button>
+                </CardActions>
+                <CardMenu style={{ color: '#fff' }}>
+                  <IconButton name='share' />
+                </CardMenu>
+              </Card>
+            </div>
+          </div>
+        </div>
+      );
   }
 
   render() {
