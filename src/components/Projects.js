@@ -952,7 +952,7 @@ class Projects extends Component {
                     color: 'black',
                     height: '170px',
                     background:
-                      'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Flaraveldaily.com%2Fwp-content%2Fuploads%2F2015%2F06%2Flaravel-logo-big.png&f=1'
+                      'https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.parentmap.com%2Fimages%2Farticle%2F7805%2FTest_sign.jpg&f=1'
                   }}
                 />
                 <CardText>
