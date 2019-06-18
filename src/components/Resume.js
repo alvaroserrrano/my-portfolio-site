@@ -68,19 +68,19 @@ class Resume extends Component {
               <strong>Relevant courses taken</strong>
             </h5>
             <ul>
-              <li Computer Science 1 with Java/>
-              <li Computer Science 2 with Java/>
-              <li Discrete Mathematics/>
-              <li Calculus I/>
+              <li Computer Science I with Java />
+              <li Computer Science II with Java />
+              <li Discrete Mathematics />
+              <li Calculus I />
               <li Calculus II />
-              <li Web Technologies/>
-              <li Database Management Systems/>
-              <li Data structures/>
-              <li Linux from beginner to advanced/>
-              <li Hacker´s Whitebook/>
-              <li Statistics with R/>
-              <li Complete Javascript course/>
-              <li MERN stack from front to Back/>
+              <li Web Technologies />
+              <li Database Management Systems />
+              <li Data structures />
+              <li Linux from beginner to advanced />
+              <li Hackers Whitebook />
+              <li Statistics with R />
+              <li Complete Javascript course />
+              <li MERN stack from front to Back />
               <li Harvard CS50 />
               <li Harvard CS50 and beyond />
             </ul>
