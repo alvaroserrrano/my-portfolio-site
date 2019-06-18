@@ -23,14 +23,26 @@ class AboutMe extends Component {
               After finishing high school in Spain, I made the decision to move
               to the United States for college. I chose Western Michigan
               University to major in Computer Science. <br />
-              I will be starting my sophomore year in Fall 2019. During my
-              freshman year I got a GPA of 3.76 and landed my first job as a web
-              developer for the Haenicke Institute of Global Studies, where I
-              created a test server with Oracle Linux and the LAMP (Linux,
-              Apache, MariaDB and PHP) stack. <br />
-              Even though I feel comfortable with the LAMP stack, my stack of
-              choice is the MERN stack (MongoDB, Express, React and Node).
+              WMU has allowed me to get my first job as a web developer during
+              my freshman year. Since then, I continue learning about web
+              development, network security, operating systems and ethical
+              hacking.
+              <br />
+              My strongest point is my ability to learn things guided by my
+              curiosity and passion for Computer Science.
             </p>
+            <h2>
+              <strong>Learn more</strong>
+            </h2>
+            <ul>
+              <li>
+                <a href='https://github.com/alvaroserrrano'>Github</a>
+              </li>
+              <a href='https://www.linkedin.com/in/alvaro-serrano-rivas-055351177/'>
+                Linkedin
+              </a>
+              <li />
+            </ul>
           </Cell>
         </Grid>
       </section>

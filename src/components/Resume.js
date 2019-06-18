@@ -4,6 +4,7 @@ import Me from '../images/Foto_graduacion_jpg.jpg';
 import Education from './Education';
 import Experience from './Experience';
 import Skills from './Skills';
+import { Link, Route } from 'react-router-dom';
 
 class Resume extends Component {
   render() {
@@ -21,7 +22,10 @@ class Resume extends Component {
             <h2 style={{ paddingTop: '2rem' }}>Alvaro Serrano</h2>
             <h4 style={{ color: 'grey' }}> Programmer</h4>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
-            <p>Full stack web developer </p>
+            <p>Full stack web development </p>
+            <p>Ethical hacking</p>
+            <p>Database Management</p>
+            <p>System administration</p>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
             <h5>Phone</h5>
             <p>(+34) 674 459 450</p>
@@ -30,9 +34,11 @@ class Resume extends Component {
             <h5>My website</h5>
             <p>alvaro-serrano-rivas.com</p>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
-            <h5>Deployed websites</h5>
+            <Link to='/projects'>
+              <h5>Deployed websites</h5>
+            </Link>
 
-            <a href='https://vast-inlet-98158.herokuapp.com/'>DevConnector</a>
+            {/* <a href='https://vast-inlet-98158.herokuapp.com/'>DevConnector</a>
             <br />
             <a href='https://react-ecommerce-alvaro-serrano.netlify.com/'>
               Ecommerce site
@@ -56,7 +62,7 @@ class Resume extends Component {
             <br />
             <a href='https://redux-intro-alvaro-serrano.netlify.com/'>
               Introduction to Redux
-            </a>
+            </a> */}
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
           </Cell>
           <Cell className='resume-right-col' col={8}>
@@ -117,13 +123,13 @@ class Resume extends Component {
             <Skills
               nameOfSkill={'Technologies:'}
               description={
-                'HTML - CSS - SASS - Vanilla JavaScript - ES6 - Bootstrap - jQuery - AJAX - React - Apache - MariaDB - MySql - MongoDB - Mongoose - Python - Java - PHP - Node - Express'
+                'HTML - CSS - SASS - JavaScript - ES6 - Bootstrap - jQuery - AJAX - React - Apache - MariaDB - MySql - MongoDB - Mongoose - Python - Java - PHP - Node - Express - Jest - Enzyme - Django - Flask - C# - PostgreSQL - SQlServer'
               }
             />
             <Skills
               nameOfSkill={'IT:'}
               description={
-                'Version control - Linux - SSH - Shell Scripting - Virtualization - SSL certificates - Agile testing - Networking - Computer hardware troubleshooting - Microsoft Office'
+                'Version control (Git) - Linux - Open Source - SSH - Shell Scripting - Virtualization - SSL certificates - Agile testing - Networking - Computer hardware troubleshooting - Microsoft Office - Penetration testing - Footprinting'
               }
             />
             <Skills
@@ -133,9 +139,9 @@ class Resume extends Component {
               }
             />
             <Skills
-              nameOfSkill={'Online courses'}
+              nameOfSkill={'Online education'}
               description={
-                'The complete Javascript course (ude.my/UC-5HLOFF76) - MERN Front to Back: Full stack using React, Redux and Nodejs (ude.my/UC-ZNPYRQ60)'
+                'The complete Javascript course - MERN Front to Back: Full stack using React, Redux and Nodejs  - Linux from beginner to Advanced - Whitesuit´s hacking'
               }
             />
           </Cell>
