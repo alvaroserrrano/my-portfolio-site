@@ -67,20 +67,8 @@ class Projects extends Component {
                       GitHub
                     </a>
                   </Button>
-                  <Button colored>
-                    <a
-                      href=''
-                      target='_blank'
-                      rel='noopener noreferrer'
-                      style={{
-                        textDecoration: 'none',
-                        color: 'rgba(66, 83, 175)'
-                      }}
-                    >
-                      Test
-                    </a>
-                  </Button>
-                  <Button colored>
+
+                   <Button colored>
                     <a
                       href='https://webauth.wmich.edu/login?service=https%3A%2F%2Fiefdf.wmich.edu%2Fhome%2Fhome.php'
                       target='_blank'
@@ -987,6 +975,94 @@ class Projects extends Component {
           </div>
         </div>
       );
+    } else if (this.state.activeTab === 8) {
+      return (
+        <div className='container'>
+          <div className='row'>
+            <div className='col-10 mx-auto col-md-6 col-lg-4  my-3'>
+              <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                <CardTitle
+                  style={{
+                    color: 'black',
+                    height: '170px',
+                    background:
+                      'https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.coindesk.com%2Fuploads%2F2017%2F02%2Fbinary-code.jpg&f=1'
+                  }}
+                />
+                <CardText>
+                  Develop a Java application that reads data from three random
+                  access (binary) files and reconstructs the corresponding
+                  postfix expressions (based on what was read from the input
+                  file).
+                </CardText>
+                <CardActions border>
+                  <Button colored>
+                    <a
+                      href='https://github.com/alvaroserrrano/PostFixExpressions'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      style={{
+                        textDecoration: 'none',
+                        color: 'rgba(66, 83, 175)'
+                      }}
+                    >
+                      GitHub
+                    </a>
+                  </Button>
+                </CardActions>
+                <CardMenu style={{ color: '#fff' }}>
+                  <IconButton name='share' />
+                </CardMenu>
+              </Card>
+            </div>
+          </div>
+        </div>
+      );
+    } else if (this.state.activeTab === 9) {
+      return (
+        <div className='container'>
+          <div className='row'>
+            <div className='col-10 mx-auto col-md-6 col-lg-4  my-3'>
+              <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                <CardTitle
+                  style={{
+                    color: 'black',
+                    height: '170px',
+                    background:
+                      'https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fpluralsight.imgix.net%2Fpaths%2Fpath-icons%2Fcsharp-e7b8fcd4ce.png&f=1'
+                  }}
+                />
+                <CardText>
+                  Interfaces || Email || SQL Server || Text Files || Data
+                  storage and retrieval || OOP{' '}
+                  <br>
+                    This desktop application allows to create a tournament, add
+                    teams, configure machups, add members...
+                  </br>
+                </CardText>
+                <CardActions border>
+                  <Button colored>
+                    <a
+                      href='https://github.com/alvaroserrrano/TournamentTracker'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      style={{
+                        textDecoration: 'none',
+                        color: 'rgba(66, 83, 175)'
+                      }}
+                    >
+                      GitHub
+                    </a>
+                  </Button>
+                </CardActions>
+                <CardMenu style={{ color: '#fff' }}>
+                  <IconButton name='share' />
+                </CardMenu>
+              </Card>
+            </div>
+          </div>
+        </div>
+      );
     }
   }
   render() {
@@ -1005,6 +1081,8 @@ class Projects extends Component {
           <Tab>MERN</Tab>
           <Tab>Laravel</Tab>
           <Tab>Testing</Tab>
+          <Tab>Java</Tab>
+          <Tab>C#</Tab>
         </Tabs>
         <section className='projects-grid'>
           <Grid className='projects-grid'>
