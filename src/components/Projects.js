@@ -1036,9 +1036,10 @@ class Projects extends Component {
                   Interfaces || Email || SQL Server || Text Files || Data
                   storage and retrieval || OOP{' '}
                   <br>
+                  </br><br>
+                  </br>
                     This desktop application allows to create a tournament, add
                     teams, configure machups, add members...
-                  </br>
                 </CardText>
                 <CardActions border>
                   <Button colored>
