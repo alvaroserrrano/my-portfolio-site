@@ -770,7 +770,7 @@ class Projects extends Component {
                     </a>
                   </Button>
                   <Button colored>
-                    <a href='https://dev-connector-alvaro-serrano.herokuapp.com'>
+                    <a href='https://dev-connector-alvaro-serrano.herokuapp.com'
                       target='_blank' rel='noopener noreferrer' style=
                       {{
                         textDecoration: 'none',
