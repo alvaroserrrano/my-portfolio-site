@@ -37,14 +37,19 @@ class Resume extends Component {
 
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
 
-            <a href='https://socialape-44490.firebaseapp.com/' target='_blank'>
-              Social Apes Site
+            <a
+              href='https://socialape-44490.firebaseapp.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Social Ape Site
             </a>
             <br />
             <br />
             <a
               href='https://dev-connector-alvaro-serrano.herokuapp.com/'
               target='_blank'
+              rel='noopener noreferrer'
             >
               Developer's connector site
             </a>

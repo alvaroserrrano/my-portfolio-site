@@ -770,20 +770,13 @@ class Projects extends Component {
                     </a>
                   </Button>
                   <Button colored>
-                    <a
-<<<<<<< HEAD
-                      href='https://dev-connector-alvaro-serrano.herokuapp.com/'
-=======
-                      href='https://dev-connector-alvaro-serrano.herokuapp.com'
->>>>>>> 706edf7eadc55a4b6cda9d31d6d413cb65bc80a0
-                      target='_blank'
-                      rel='noopener noreferrer'
-                      style={{
+                    <a href='https://dev-connector-alvaro-serrano.herokuapp.com'>
+                      target='_blank' rel='noopener noreferrer' style=
+                      {{
                         textDecoration: 'none',
                         color: 'rgba(66, 83, 175)'
                       }}
-                    >
-                      Live demo
+                      > Live demo
                     </a>
                   </Button>
                 </CardActions>
@@ -993,12 +986,10 @@ class Projects extends Component {
                 />
                 <CardText>
                   Interfaces || Email || SQL Server || Text Files || Data
-                  storage and retrieval || OOP{' '}
-                  <br>
-                  </br><br>
-                  </br>
-                    This desktop application allows to create a tournament, add
-                    teams, configure machups, add members...
+                  storage and retrieval || OOP <br />
+                  <br />
+                  This desktop application allows to create a tournament, add
+                  teams, configure machups, add members...
                 </CardText>
                 <CardActions border>
                   <Button colored>
