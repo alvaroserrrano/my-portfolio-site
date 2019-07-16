@@ -771,7 +771,11 @@ class Projects extends Component {
                   </Button>
                   <Button colored>
                     <a
+<<<<<<< HEAD
                       href='https://dev-connector-alvaro-serrano.herokuapp.com/'
+=======
+                      href='https://dev-connector-alvaro-serrano.herokuapp.com'
+>>>>>>> 706edf7eadc55a4b6cda9d31d6d413cb65bc80a0
                       target='_blank'
                       rel='noopener noreferrer'
                       style={{
@@ -991,9 +995,10 @@ class Projects extends Component {
                   Interfaces || Email || SQL Server || Text Files || Data
                   storage and retrieval || OOP{' '}
                   <br>
+                  </br><br>
+                  </br>
                     This desktop application allows to create a tournament, add
                     teams, configure machups, add members...
-                  </br>
                 </CardText>
                 <CardActions border>
                   <Button colored>
