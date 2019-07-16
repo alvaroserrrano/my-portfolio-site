@@ -31,13 +31,28 @@ class Resume extends Component {
             <p>(+34) 674 459 450</p>
             <h5>Mail</h5>
             <p>alvaro.serrano@wmich.edu</p>
-            <h5>My website</h5>
-            <p>alvaro-serrano-rivas.com</p>
-            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
-            <Link to='/projects'>
-              <h5>Deployed websites</h5>
-            </Link>
+            <h5>
+              <a href='portfolio-alvaro-serrano.netlify.com'>My portfolio</a>
+            </h5>
 
+            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+
+            <a href='https://socialape-44490.firebaseapp.com/' target='_blank'>
+              Social Apes Site
+            </a>
+            <br />
+            <br />
+            <a
+              href='https://dev-connector-alvaro-serrano.herokuapp.com/'
+              target='_blank'
+            >
+              Developer's connector site
+            </a>
+            <br />
+            <br />
+            <Link to='/projects'>
+              <p>Learn more...</p>
+            </Link>
             {/* <a href='https://vast-inlet-98158.herokuapp.com/'>DevConnector</a>
             <br />
             <a href='https://react-ecommerce-alvaro-serrano.netlify.com/'>

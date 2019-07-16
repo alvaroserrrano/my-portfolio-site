@@ -68,7 +68,7 @@ class Projects extends Component {
                     </a>
                   </Button>
 
-                   <Button colored>
+                  <Button colored>
                     <a
                       href='https://webauth.wmich.edu/login?service=https%3A%2F%2Fiefdf.wmich.edu%2Fhome%2Fhome.php'
                       target='_blank'
@@ -107,8 +107,8 @@ class Projects extends Component {
                   Javascript, jQuery, Ajax, MySQL and PHP
                   <br />
                   <br />
-                  Since it is an unofficial website, the sign up does not work.
-                  In order to log in and access the website you can use{' '}
+                  Since it is an unofficial website, the signup is disabled. In
+                  order to log in and access the website you can use{' '}
                   <strong>Username: </strong> peterParker and{' '}
                   <strong>Password: </strong> password.
                 </CardText>
@@ -221,25 +221,26 @@ class Projects extends Component {
                     color: 'blackf',
                     height: '170px',
                     background:
-                      'url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.framedrecipes.com%2Fwp-content%2Fuploads%2F2014%2F09%2FDSC_9130_Uthappam_Final.jpg&f=1) center / cover'
+                      'url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fi2.res.24o.it%2Fimages2010%2FEditrice%2FILSOLE24ORE%2FILSOLE24ORE%2FOnline%2FImmagini%2FArticleGallery%2FNotizie%2F2016%2F11%2Fape-social%2Fape-social-01--835x437.jpg&f=1) center / cover'
                   }}
                 />
                 <CardText>
-                  Real-world application that fetches data from Food2Fork API.
+                  Social networking site using Firebase and React.
+                  <br />
+                  <br />I created the backend using Firebasel, Node and Express
                   <br />
                   <br />
-                  Asynchronous JavaScript
+                  This is a dynamic SPA
                   <br />
                   <br />
-                  Styled with bootstrap
+                  State management using Redux
                   <br />
                   <br />
-                  Includes hardcoded data in order not to consume API calls
-                  during development
+                  Styling with a 'material/ui'
                   <br />
                   <br />
-                  You can search for recipes and see details, be redirected to
-                  the publisher´s site...
+                  Firebase as a hosting solution
+                  <br />
                 </CardText>
                 <CardActions border>
                   <Button colored>
@@ -404,18 +405,28 @@ class Projects extends Component {
                     color: 'black',
                     height: '170px',
                     background:
-                      'url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.brainvire.com%2Fwp-content%2Fuploads%2FExpress.JS-%25E2%2580%2593-An-Ideal-Node.JS-Framework-to-develop-Enterprise-Web-Applications.jpg&f=1) center / cover'
+                      'url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fi2.res.24o.it%2Fimages2010%2FEditrice%2FILSOLE24ORE%2FILSOLE24ORE%2FOnline%2FImmagini%2FArticleGallery%2FNotizie%2F2016%2F11%2Fape-social%2Fape-social-01--835x437.jpg&f=1) center / cover'
                   }}
                 />
                 <CardText>
-                  Created this tutorial to teach Node and Express to beginners{' '}
+                  Social networking site using Firebase and Express in the
+                  backend
+                  <br />
+                  <br />I used React to build the front-end
                   <br />
                   <br />
-                  Teaching NodeJS with this tutorial takes approximately 2.5
-                  hours + extra time allowed for questions <br />
+                  Features login, register, posts, profiles, users,
+                  notifications...
                   <br />
-                  The students are introduced to the main modules and concepts
-                  such as Express, Path, HTTP, Joi, ejs, middleware...
+                  <br />
+                  A REST API using Google Cloud functions
+                  <br />
+                  <br />
+                  Document based database using Firebase
+                  <br />
+                  <br />
+                  Firebase as a hosting solution
+                  <br />
                 </CardText>
                 <CardActions border>
                   <Button colored>
@@ -510,16 +521,21 @@ class Projects extends Component {
                   }}
                 />
                 <CardText>
-                  Modern JavaScript for 2018: NPM, Webpack, Babel and ES6
-                  modules
+                  Real-world application that fetches data from Food2Fork API.
                   <br />
                   <br />
-                  Includes features like the 'this' keyword, function
-                  constructors, prototypal inheritance, first-class functions,
-                  closures, ES6.
+                  Asynchronous JavaScript
                   <br />
                   <br />
-                  Implemented MVC (Model, View, Controller)
+                  Styled with bootstrap
+                  <br />
+                  <br />
+                  Includes hardcoded data in order not to consume API calls
+                  during development
+                  <br />
+                  <br />
+                  You can search for recipes and see details, be redirected to
+                  the publisher´s site...
                 </CardText>
                 <CardActions border>
                   <Button colored>
@@ -683,67 +699,6 @@ class Projects extends Component {
                     color: 'black',
                     height: '170px',
                     background:
-                      'url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.slidesharecdn.com%2Freactreduxintroduction-151124165017-lva1-app6891%2F95%2Freact-redux-introduction-1-638.jpg%3Fcb%3D1448383914&f=1) center / cover'
-                  }}
-                />
-                <CardText>
-                  Redux Crash Course taught by 'Traversy Media'
-                  <br />
-                  <br />
-                  Introduction to Redux: state, reducers, actions, store...
-                  <br />
-                  <br />
-                  Redux helps you write applications that behave consistently,
-                  run in different environments (client, server, and native),
-                  and are easy to test.
-                </CardText>
-                <CardActions border>
-                  <Button colored>
-                    <a
-                      href='https://github.com/alvaroserrrano/redux-crash-course'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                      style={{
-                        textDecoration: 'none',
-                        color: 'rgba(66, 83, 175)'
-                      }}
-                    >
-                      GitHub
-                    </a>
-                  </Button>
-                  <Button colored>
-                    <a
-                      href='https://redux-intro-alvaro-serrano.netlify.com/'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                      style={{
-                        textDecoration: 'none',
-                        color: 'rgba(66, 83, 175)'
-                      }}
-                    >
-                      Live demo
-                    </a>
-                  </Button>
-                </CardActions>
-                <CardMenu style={{ color: '#fff' }}>
-                  <IconButton name='share' />
-                </CardMenu>
-              </Card>
-            </div>
-          </div>
-        </div>
-      );
-    } else if (this.state.activeTab === 5) {
-      return (
-        <div className='container'>
-          <div className='row'>
-            <div className='col-10 mx-auto col-md-6 col-lg-4  my-3'>
-              <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                <CardTitle
-                  style={{
-                    color: 'black',
-                    height: '170px',
-                    background:
                       'url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Falanterriaga.com%2Fwp-content%2Fuploads%2F2018%2F11%2FBlog-Article-MERN-Stack.jpg&f=1) center / cover'
                   }}
                 />
@@ -816,7 +771,7 @@ class Projects extends Component {
                   </Button>
                   <Button colored>
                     <a
-                      href='https://vast-inlet-98158.herokuapp.com/'
+                      href='https://dev-connector-alvaro-serrano.herokuapp.com/'
                       target='_blank'
                       rel='noopener noreferrer'
                       style={{
@@ -880,7 +835,7 @@ class Projects extends Component {
           </div>
         </div>
       );
-    } else if (this.state.activeTab === 6) {
+    } else if (this.state.activeTab === 5) {
       return (
         <div className='container'>
           <div className='row'>
@@ -929,7 +884,7 @@ class Projects extends Component {
           </div>
         </div>
       );
-    } else if (this.state.activeTab === 7) {
+    } else if (this.state.activeTab === 6) {
       return (
         <div className='container'>
           <div className='row'>
@@ -975,7 +930,7 @@ class Projects extends Component {
           </div>
         </div>
       );
-    } else if (this.state.activeTab === 8) {
+    } else if (this.state.activeTab === 7) {
       return (
         <div className='container'>
           <div className='row'>
@@ -1018,7 +973,7 @@ class Projects extends Component {
           </div>
         </div>
       );
-    } else if (this.state.activeTab === 9) {
+    } else if (this.state.activeTab === 8) {
       return (
         <div className='container'>
           <div className='row'>
@@ -1077,7 +1032,6 @@ class Projects extends Component {
           <Tab> React </Tab>
           <Tab> Node </Tab>
           <Tab> JavaScript</Tab>
-          <Tab> Redux</Tab>
           <Tab>MERN</Tab>
           <Tab>Laravel</Tab>
           <Tab>Testing</Tab>
