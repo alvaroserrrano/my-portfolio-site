@@ -246,7 +246,7 @@ class Projects extends Component {
                   <Button colored>
                     <a
                       href='
-                        https://github.com/alvaroserrrano/React-Recipes/tree/master/recipe'
+                      https://github.com/alvaroserrrano/SocialApeClient'
                       target='_blank'
                       rel='noopener noreferrer'
                       style={{
@@ -254,13 +254,27 @@ class Projects extends Component {
                         color: 'rgba(66, 83, 175)'
                       }}
                     >
-                      GitHub
+                      Client-side code
+                    </a>
+                  </Button>
+                  <Button colored>
+                    <a
+                      href='
+                      https://github.com/alvaroserrrano/SocialMediaApp'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      style={{
+                        textDecoration: 'none',
+                        color: 'rgba(66, 83, 175)'
+                      }}
+                    >
+                      Server-side code
                     </a>
                   </Button>
 
                   <Button colored>
                     <a
-                      href='https://react-recipes-alvaro-serrano.netlify.com/'
+                      href='https://socialape-44490.firebaseapp.com/'
                       target='_blank'
                       rel='noopener noreferrer'
                       style={{
@@ -770,13 +784,17 @@ class Projects extends Component {
                     </a>
                   </Button>
                   <Button colored>
-                    <a href='https://dev-connector-alvaro-serrano.herokuapp.com'
-                      target='_blank' rel='noopener noreferrer' style=
-                      {{
+                    <a
+                      href='https://dev-connector-alvaro-serrano.herokuapp.com'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      style={{
                         textDecoration: 'none',
                         color: 'rgba(66, 83, 175)'
                       }}
-                      > Live demo
+                    >
+                      {' '}
+                      Live demo
                     </a>
                   </Button>
                 </CardActions>
