@@ -103,6 +103,9 @@ class Resume extends Component {
               <li MERN stack from front to Back />
               <li Harvard CS50 />
               <li Harvard CS50 and beyond />
+              <li Assembly language />
+              <li From junior to senior developer />
+              <li Master the coding interview />
             </ul>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
           </Cell>
