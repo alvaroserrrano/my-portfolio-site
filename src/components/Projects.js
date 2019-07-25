@@ -1032,6 +1032,66 @@ class Projects extends Component {
           </div>
         </div>
       );
+    } else if (this.state.activeTab === 9) {
+      return (
+        <div className='container'>
+          <div className='row'>
+            <div className='col-10 mx-auto col-md-6 col-lg-4  my-3'>
+              <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                <CardTitle
+                  style={{
+                    color: 'black',
+                    height: '170px',
+                    background:
+                      'https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.shareaholic.com%2Fwp-content%2Fuploads%2F2013%2F01%2F7702900836_0106e4e49a_c.jpg&f=1'
+                  }}
+                />
+                <CardText>
+                  Personal blog created using Gatsby and graphql (pulling data
+                  from markdown files).
+                  <br />
+                  Gatsby automates code splitting, image optimization, inlining
+                  critical styles, lazy-loading, and prefetching resources, and
+                  more to ensure your site is fast.
+                  <br />
+                  All the advantages of static websites with no limitations.
+                </CardText>
+                <CardActions border>
+                  <Button colored>
+                    <a
+                      href='https://github.com/alvaroserrrano/CodeBlog'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      style={{
+                        textDecoration: 'none',
+                        color: 'rgba(66, 83, 175)'
+                      }}
+                    >
+                      GitHub
+                    </a>
+                  </Button>
+                  <Button colored>
+                    <a
+                      href='https://codingblog-alvaro-serrano.netlify.com/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      style={{
+                        textDecoration: 'none',
+                        color: 'rgba(66, 83, 175)'
+                      }}
+                    >
+                      Live demo
+                    </a>
+                  </Button>
+                </CardActions>
+                <CardMenu style={{ color: '#fff' }}>
+                  <IconButton name='share' />
+                </CardMenu>
+              </Card>
+            </div>
+          </div>
+        </div>
+      );
     }
   }
   render() {
@@ -1051,6 +1111,7 @@ class Projects extends Component {
           <Tab>Testing</Tab>
           <Tab>Java</Tab>
           <Tab>C#</Tab>
+          <Tab>Gatsby</Tab>
         </Tabs>
         <section className='projects-grid'>
           <Grid className='projects-grid'>
